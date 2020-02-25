@@ -1,0 +1,52 @@
+AMGX version 2.0.0.130-opensource
+Built on Feb 13 2020, 11:29:59
+Compiled with CUDA Runtime 9.2, using CUDA driver 10.1
+Warning: No mode specified, using dDDI by default.
+bsize is 4
+row_ptr read 93931 rows
+col_ind read 482609 cols
+value read 482609 values
+RHS read 375724
+~~~~~~~~~~~~~~~~~~get color level 1 m_sparsity_level 0 color 7~~~~~~~~~~~~~~~~~~~~~~~
+0 color has 5992 rows
+1 color has 18931 rows
+2 color has 18862 rows
+3 color has 17560 rows
+4 color has 15374 rows
+5 color has 10503 rows
+6 color has 6709 rows
+computeLUFactors Time:0.000472928
+           iter      Mem Usage (GB)       residual           rate
+         --------------------------------------------------------------
+            Ini                   0   6.479649e+03
+Smoother used: 0.000293888
+              0             1.13361   3.995218e+03         0.6166
+Smoother used: 0.000582656
+              1              1.1336   3.080070e+03         0.7709
+Smoother used: 0.0008704
+              2              1.1336   2.578413e+03         0.8371
+Smoother used: 0.00115712
+              3              1.1336   2.201116e+03         0.8537
+Smoother used: 0.00144486
+              4              1.1336   1.942016e+03         0.8823
+Smoother used: 0.00173155
+              5              1.1336   1.724644e+03         0.8881
+Smoother used: 0.00202032
+              6              1.1336   1.560099e+03         0.9046
+Smoother used: 0.00230707
+              7              1.1336   1.421397e+03         0.9111
+Smoother used: 0.00259277
+              8              1.1336   1.304460e+03         0.9177
+Smoother used: 0.00288051
+              9              1.1336   1.211592e+03         0.9288
+         --------------------------------------------------------------
+         Total Iterations: 10
+         Avg Convergence Rate: 		         0.8456
+         Final Residual: 		   1.211592e+03
+         Total Reduction in Residual: 	   1.869842e-01
+         Maximum Memory Usage: 		          1.134 GB
+         --------------------------------------------------------------
+Total Time: 0.0128455
+    setup: 0.00365158 s
+    solve: 0.00919392 s
+    solve(per iteration): 0.000919392 s

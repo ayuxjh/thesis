@@ -1,0 +1,62 @@
+AMGX version 2.0.0.130-opensource
+Built on Feb 13 2020, 11:29:59
+Compiled with CUDA Runtime 9.2, using CUDA driver 10.1
+Warning: No mode specified, using dDDI by default.
+bsize is 4
+row_ptr read 3107162 rows
+col_ind read 15622354 cols
+value read 15622354 values
+RHS read 12428648
+~~~~~~~~~~~~~~~~~~get color level 2 m_sparsity_level 1 color 17~~~~~~~~~~~~~~~~~~~~~~~
+0 color has 256138 rows
+1 color has 226918 rows
+2 color has 227269 rows
+3 color has 203697 rows
+4 color has 204010 rows
+5 color has 190900 rows
+6 color has 190952 rows
+7 color has 184376 rows
+8 color has 184406 rows
+9 color has 179652 rows
+10 color has 180166 rows
+11 color has 172180 rows
+12 color has 172296 rows
+13 color has 151765 rows
+14 color has 152214 rows
+15 color has 115017 rows
+16 color has 115206 rows
+computeLUFactors Time:0.0391916
+           iter      Mem Usage (GB)       residual           rate
+         --------------------------------------------------------------
+            Ini                   0   2.950859e+03
+Smoother used: 0.013013
+              0             7.84064   1.568839e+03         0.5317
+Smoother used: 0.0260086
+              1              8.0477   1.234701e+03         0.7870
+Smoother used: 0.038999
+              2              8.2547   1.071640e+03         0.8679
+Smoother used: 0.0520038
+              3              8.4617   9.280467e+02         0.8660
+Smoother used: 0.0650035
+              4              8.6688   8.016425e+02         0.8638
+Smoother used: 0.079232
+              5              8.8758   6.896865e+02         0.8603
+Smoother used: 0.0922563
+              6              9.0828   5.916560e+02         0.8579
+Smoother used: 0.105281
+              7              9.2899   5.052548e+02         0.8540
+Smoother used: 0.118275
+              8              9.4969   4.313425e+02         0.8537
+Smoother used: 0.131296
+              9              9.7039   3.684830e+02         0.8543
+         --------------------------------------------------------------
+         Total Iterations: 10
+         Avg Convergence Rate: 		         0.8122
+         Final Residual: 		   3.684830e+02
+         Total Reduction in Residual: 	   1.248731e-01
+         Maximum Memory Usage: 		          9.704 GB
+         --------------------------------------------------------------
+Total Time: 0.454599
+    setup: 0.154465 s
+    solve: 0.300134 s
+    solve(per iteration): 0.0300134 s
