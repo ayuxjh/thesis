@@ -1,0 +1,35 @@
+|          23|  3.8661e+00|   -5.258783|  -12.020932|    0.179712|    0.036173|
+preconditon Time:0.691603
+
+# FGMRES residual history
+# Residual tolerance target = 0.0001
+# Initial residual norm     = 0.00674047
+     0     1
+Smoother Time:0.07831
+Smoother Time:0.155551
+Smoother Time:0.232889
+Smoother Time:0.309734
+Smoother Time:0.387719
+Smoother Time:0.465901
+Smoother Time:0.544019
+Smoother Time:0.621384
+Smoother Time:0.698609
+Smoother Time:0.77689
+     10     0.000272635
+# FGMRES final (true) residual:
+# Iteration = 10: |res|/|res0| = 0.000272635.
+
+FGMRES Solver Time:1.30407
+Total Time:1.99574
+Solve the turbulence model
+preconditon Time:0.106531
+
+# FGMRES residual history
+# Residual tolerance target = 0.0001
+# Initial residual norm     = 2.82261e-10
+     0     1
+     10     0.000107192
+# FGMRES final (true) residual:
+# Iteration = 10: |res|/|res0| = 0.000107192.
+
+FGMRES Solver Time:0.146026
