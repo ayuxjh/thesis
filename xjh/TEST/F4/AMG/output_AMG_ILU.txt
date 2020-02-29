@@ -1,0 +1,53 @@
+AMGX version 2.0.0.130-opensource
+Built on Feb 13 2020, 11:29:59
+Compiled with CUDA Runtime 9.2, using CUDA driver 10.1
+Warning: No mode specified, using dDDI by default.
+bsize is 5
+row_ptr read 1220883 rows
+col_ind read 11766653 cols
+value read 11766653 values
+RHS read 6104415
+~~~~~~~~~~~~~~~~~~get color level 1 m_sparsity_level 0 color 32~~~~~~~~~~~~~~~~~~~~~~~
+computeLUFactors Time:0.039582
+~~~~~~~~~~~~~~~~~~get color level 1 m_sparsity_level 0 color 33~~~~~~~~~~~~~~~~~~~~~~~
+computeLUFactors Time:0.0237467
+AMG Grid:
+         Number of Levels: 2
+            LVL         ROWS               NNZ    SPRSTY       Mem (GB)
+         --------------------------------------------------------------
+           0(D)      6104415         294166325  7.89e-06           2.44
+           1(D)      2921680         156525800  1.83e-05            2.5
+         --------------------------------------------------------------
+         Grid Complexity: 1.47862
+         Operator Complexity: 1.5321
+         Total Memory Usage: 4.938 GB
+         --------------------------------------------------------------
+           iter      Mem Usage (GB)       residual                                                                       rate                                                            
+         ----------------------------------------------------------------------------------------------------------------------------------------------------------
+            Ini             8.77826   6.945303e-02   1.340504e+01   1.866219e+01   1.855618e+01   2.143312e+04
+Smoother used 0.0164527
+Smoother used 0.0328864
+Smoother used 0.049316
+Smoother used 0.0657709
+              0             8.82904   6.590831e-04   2.414792e-01   1.061815e-01   9.494857e-02   2.330355e+02         0.0095  0.0180  0.0057  0.0051  0.0109
+Smoother used 0.0822062
+Smoother used 0.0986518
+Smoother used 0.115083
+Smoother used 0.131514
+              1              8.8290   7.634861e-06   2.688676e-03   1.266110e-03   1.097826e-03   2.686111e+00         0.0116  0.0111  0.0119  0.0116  0.0115
+Smoother used 0.147951
+Smoother used 0.164394
+Smoother used 0.180819
+Smoother used 0.197241
+              2              8.8290   1.273256e-07   3.574615e-05   2.742871e-05   2.291630e-05   4.349108e-02         0.0167  0.0133  0.0217  0.0209  0.0162
+         ----------------------------------------------------------------------------------------------------------------------------------------------------------
+         Total Iterations: 3
+         Avg Convergence Rate: 		         0.0122         0.0139         0.0114         0.0107         0.0127
+         Final Residual: 		   1.273256e-07   3.574615e-05   2.742871e-05   2.291630e-05   4.349108e-02
+         Total Reduction in Residual: 	   1.833262e-06   2.666620e-06   1.469748e-06   1.234969e-06   2.029153e-06
+         Maximum Memory Usage: 		          8.829 GB
+         ----------------------------------------------------------------------------------------------------------------------------------------------------------
+Total Time: 0.460119
+    setup: 0.210157 s
+    solve: 0.249962 s
+    solve(per iteration): 0.0833205 s

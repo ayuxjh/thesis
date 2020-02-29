@@ -1,0 +1,52 @@
+AMGX version 2.0.0.130-opensource
+Built on Feb 13 2020, 11:29:59
+Compiled with CUDA Runtime 9.2, using CUDA driver 10.1
+Warning: No mode specified, using dDDI by default.
+bsize is 5
+row_ptr read 1220883 rows
+col_ind read 11766653 cols
+value read 11766653 values
+RHS read 6104415
+~~~~~~~~~~~~~~~~~~get color level 1 m_sparsity_level 0 color 13~~~~~~~~~~~~~~~~~~~~~~~
+computeLUFactors Time:0.0333084
+~~~~~~~~~~~~~~~~~~get color level 1 m_sparsity_level 0 color 13~~~~~~~~~~~~~~~~~~~~~~~
+computeLUFactors Time:0.0190591
+AMG Grid:
+         Number of Levels: 2
+            LVL         ROWS               NNZ    SPRSTY       Mem (GB)
+         --------------------------------------------------------------
+           0(D)      6104415         294166325  7.89e-06           2.44
+           1(D)      2921260         156518900  1.83e-05            2.5
+         --------------------------------------------------------------
+         Grid Complexity: 1.47855
+         Operator Complexity: 1.53208
+         Total Memory Usage: 4.93788 GB
+         --------------------------------------------------------------
+           iter      Mem Usage (GB)       residual           rate
+         --------------------------------------------------------------
+            Ini             8.77826   2.143314e+04
+Smoother used 0.0154609
+Smoother used 0.0309186
+Smoother used 0.0389345
+Smoother used 0.0469549
+Smoother used 0.0624075
+Smoother used 0.0778592
+              0             9.03217   5.826378e+01         0.0027
+Smoother used 0.0933173
+Smoother used 0.108776
+Smoother used 0.116795
+Smoother used 0.124809
+Smoother used 0.140252
+Smoother used 0.155714
+              1              9.1337   1.901021e-01         0.0033
+         --------------------------------------------------------------
+         Total Iterations: 2
+         Avg Convergence Rate: 		         0.0030
+         Final Residual: 		   1.901021e-01
+         Total Reduction in Residual: 	   8.869538e-06
+         Maximum Memory Usage: 		          9.134 GB
+         --------------------------------------------------------------
+Total Time: 0.400419
+    setup: 0.203426 s
+    solve: 0.196993 s
+    solve(per iteration): 0.0984963 s
